@@ -1,0 +1,15 @@
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/bin/Debug/net9.0/Orm-Task2.PL
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/bin/Debug/net9.0/Orm-Task2.PL.deps.json
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/bin/Debug/net9.0/Orm-Task2.PL.runtimeconfig.json
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/bin/Debug/net9.0/Orm-Task2.PL.dll
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/bin/Debug/net9.0/Orm-Task2.PL.pdb
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/Orm-Task2.PL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/Orm-Task2.PL.AssemblyInfoInputs.cache
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/Orm-Task2.PL.AssemblyInfo.cs
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/Orm-Task2.PL.csproj.CoreCompileInputs.cache
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/Orm-Task2.PL.sourcelink.json
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/Orm-Task2.PL.dll
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/refint/Orm-Task2.PL.dll
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/Orm-Task2.PL.pdb
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/Orm-Task2.PL.genruntimeconfig.cache
+/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/obj/Debug/net9.0/ref/Orm-Task2.PL.dll

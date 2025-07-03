@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Orm-Task2.DAL</id>
+    <version>1.0.0</version>
+    <authors>Orm-Task2.DAL</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="0b58af1ef965f0eab4ded2a9f3e8a0ad43c7a333" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Orm-Task2.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.DAL/bin/Debug/net9.0/Orm-Task2.DAL.runtimeconfig.json" target="lib/net9.0/Orm-Task2.DAL.runtimeconfig.json" />
+    <file src="/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.DAL/bin/Debug/net9.0/Orm-Task2.DAL.dll" target="lib/net9.0/Orm-Task2.DAL.dll" />
+  </files>
+</package>
