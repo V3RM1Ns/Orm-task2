@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Orm-Task2.DAL\Orm-Task2.DAL.csproj" />
+      <ProjectReference Include="..\Orm-Task2.PL\Orm-Task2.PL.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,32 +1,37 @@
-using Orm_Task2.BL.Dtos.StudentDto;
-using Orm_Task2.BL.Profiles;
-using Orm_Task2.BL.Services.Interfaces;
-using Orm_Task2.Core.Entities;
-using Orm_Task2.DAL.Contexts;
+
+using Orm_Task2.DAL.Repositories.Concretes;
+using Orm_Task2.DAL.Repositories.Interfaces;
 
 namespace Orm_Task2.BL.Services.Concretes;
 
 public class StudentService:IStudentService
 {
-    private readonly OrmDbContex _context;
+   private readonly IRepository<Student> _repository;
     public void CreateStudent(StudentCreateDto studentdto)
     {
        Student student=StudentProfile.StudentCreateToStudent(studentdto);
-        _context.Students.Add(student);
-        _context.SaveChanges();
+      _repository.Add(student);
+      
     }
 
-    public List<StudentReturnDto> GetAllStudents()
+    public void Delete(Student student)
     {
-        List<Student> students = _context.Students.ToList();
-        List<StudentReturnDto> returnDtos = students
-            .Select(s => StudentProfile.StudentToStudentReturnDto(s))
-            .ToList();
-        return returnDtos;
+        _repository.Delete(student);
     }
+
+    public Student GetById(int id)
+    {
+       return _repository.GetById(id);
+    }
+
+    public void Update(Student student)
+    {
+        _repository.Update(student);
+    }
+
     public StudentService()
     {
-        _context = new OrmDbContex();
+        _repository = new Repository<Student>();
     }
     
 }

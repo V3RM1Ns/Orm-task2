@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Orm-Task2.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b58af1ef965f0eab4ded2a9f3e8a0ad43c7a333")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfafa7abb8707706f0acabbe45868ba0d2a611be")]
 [assembly: System.Reflection.AssemblyProductAttribute("Orm-Task2.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Orm-Task2.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

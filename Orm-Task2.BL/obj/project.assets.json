@@ -985,6 +985,16 @@
         "runtime": {
           "bin/placeholder/Orm-Task2.DAL.dll": {}
         }
+      },
+      "Orm-Task2.PL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Orm-Task2.PL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Orm-Task2.PL.dll": {}
+        }
       }
     }
   },
@@ -2686,11 +2696,17 @@
       "type": "project",
       "path": "../Orm-Task2.DAL/Orm-Task2.DAL.csproj",
       "msbuildProject": "../Orm-Task2.DAL/Orm-Task2.DAL.csproj"
+    },
+    "Orm-Task2.PL/1.0.0": {
+      "type": "project",
+      "path": "../Orm-Task2.PL/Orm-Task2.PL.csproj",
+      "msbuildProject": "../Orm-Task2.PL/Orm-Task2.PL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Orm-Task2.DAL >= 1.0.0"
+      "Orm-Task2.DAL >= 1.0.0",
+      "Orm-Task2.PL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2720,6 +2736,9 @@
           "projectReferences": {
             "/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.DAL/Orm-Task2.DAL.csproj": {
               "projectPath": "/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.DAL/Orm-Task2.DAL.csproj"
+            },
+            "/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/Orm-Task2.PL.csproj": {
+              "projectPath": "/Users/apple/RiderProjects/Orm-Task2/Orm-Task2.PL/Orm-Task2.PL.csproj"
             }
           }
         }

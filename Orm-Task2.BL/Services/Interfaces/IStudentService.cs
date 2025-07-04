@@ -5,5 +5,7 @@ namespace Orm_Task2.BL.Services.Interfaces;
 public interface IStudentService
 {
     public void CreateStudent(StudentCreateDto student);
-    public List<StudentReturnDto> GetAllStudents();
+    public void Delete(Student student);
+    public Student GetById(int id);
+    public void Update(Student student);
 }
